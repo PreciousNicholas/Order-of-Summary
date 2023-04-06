@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+    display: flex;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: lightblue;    
+}
+.container-1{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px 100px;
+    border-radius: 0 0 10px 10px;
+    height: 350px;
+    margin-top: 100px;
+}
+.img-div {
+    height: 400px;
+    margin-top: 50px;
+}
+
+.img{
+    text-align: center;
+    /* padding: 10px; */
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+h4{
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: darkblue;
+}
+.music-icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    justify-content: space-between;
+    background-color: rgb(250, 249, 249);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    box-shadow: 10rem;
+    border-bottom: rgb(184, 163, 163) solid 3px;
+    border-right: rgb(177, 161, 161) solid 3px;
+    height: 60px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+.image-icon{
+    display: flex;
+    color: darkblue;
+    
+}
+.music-icon p{
+    color: darkblue;
+}
+.para{
+    color: grey;
+}
+.btn button {
+    background-color: blue;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+}
+.buttons button {
+    background-color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    display: block;
+}
+/* Extra small devices (phones, 600px and down)  */
+@media only screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+}
